@@ -21,7 +21,7 @@ export const NavBar = () => {
       <li onClick={()=>{setMenu("womens")}}>  <Link style={{textDecoration:"none"}} to='/women'>Women</Link> 
       {Menu==="womens"?<hr/>:<></>}</li>
       <li onClick={()=>{setMenu("kids")}}><Link style={{textDecoration:"none"}} to='/kid'>Kids</Link> 
-      {Menu==="kid"?<hr/>:<></>}</li>
+      {Menu==="kids"?<hr/>:<></>}</li>
     </ul>
     <div className="nav-login-cart">
       <Link to='/login'><button> Login</button></Link>
